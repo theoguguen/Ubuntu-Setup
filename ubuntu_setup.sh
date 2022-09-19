@@ -66,14 +66,14 @@ function ide()
 function aliases()
 {
     echo -ne "${GREEN}[#####                  ](33%)\r"
-    echo "alias ne=emacs -nw" >> ~/.zshrc
-    echo "alias bb=clear && bubulle" >> ~/.zshrc
-    echo "alias fclean=make fclean && clear" >> ~/.zshrc
+    echo 'alias ne="emacs -nw"' >> ~/.zshrc
+    echo 'alias bb="clear && bubulle"' >> ~/.zshrc
+    echo 'alias fclean="make fclean && clear"' >> ~/.zshrc
     sleep 1
     echo -ne '[#############          ](66%)\r'
-    echo "alias re=clear && make re" >> ~/.zshrc
-    echo "alias norm=clear && normez" >> ~/.zshrc
-    echo "alias bat=batcat" >> ~/.zshrc
+    echo 'alias re="clear && make re"' >> ~/.zshrc
+    echo 'alias norm="clear && normez"' >> ~/.zshrc
+    echo 'alias bat="batcat"' >> ~/.zshrc
     sleep 1
     echo -ne '[#######################](100%)\r'
     echo -ne '\n'
